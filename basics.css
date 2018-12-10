@@ -1,0 +1,120 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+
+p {font-size: 15px;
+  text-align: left;
+  color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Yrsa', serif;
+}
+
+
+
+h1{ color:#ffa7a7;
+  font-size: 130px;
+}
+
+h3{ margin-left: 2%;
+    color: #ffa7a7;
+    font-family: 'Reenie Beanie', cursive;
+   font-size: 75px; }
+
+
+h2{ color: black;
+}
+
+.menu {
+  margin-left: -10%%;
+  margin-top: -83%
+
+}
+
+
+.content{ margin-top: -82%;
+          margin-bottom: 1%;
+          margin-right: 13%;
+          padding-top: -40px;
+          padding-left:4%;
+          padding-right:5%;
+        }
+
+.active {font-family: 'Reenie Beanie', cursive;
+         color: white; 
+        font-size: 40px;
+        text-decoration:none;
+    
+  }
+  
+  a{
+    text-decoration:none;
+    border-bottom:0px solid white;
+    color:#000;
+    transition: all 0.25s ease-in-out 0s
+}
+
+a:hover{
+   color:#000;
+   transition: all 0.25s ease-in-out 0s;
+}
+  
+
+
+.navbar { margin-bottom: 46%;
+  margin-top: .5%;
+  margin-left: -15%;
+  margin-right: -15%;
+  justify-content: center
+  
+}
+
+
+.header {
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  margin-left: -10%;
+  margin-right: -10%;
+
+}
+
+/* footer section */
+.bottom {
+  margin-left: -33%;
+  margin-right: -50%;
+  margin-bottom: 2%;
+  margin-top: 10%;
+  
+}
+
+
+html, body {
+  background-color: #000000;
+  margin: 10px;
+}
+
+.container > div:nth-child(1n) {
+  background-color: #ffffff;	
+  
+}
+
+.container > div:nth-child(3n) {
+  /* background-color: #4e4e4e; */
+  background-color:white;
+}
+
+.container > div:nth-child(2n) {
+      background-color: #000000;
+}
+
+.container > div:nth-child(4n) {
+      background-color: #ffa7a7;
+}
+
+.container > div:nth-child(5n) {
+  background-color: #ffa7a7;
+}
